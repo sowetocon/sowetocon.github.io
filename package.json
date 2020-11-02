@@ -1,0 +1,21 @@
+{
+  "name": "yew-parcel",
+  "collaborators": [
+    "Francisco Jesus Navarro Cortes"
+  ],
+  "description": "My awesome Yew with Yew-Router and Parcel application!",
+  "version": "0.17.2",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spielrs/yew-parcel-template.git"
+  },
+  "files": [
+    "yew_parcel_bg.wasm",
+    "yew_parcel.js",
+    "yew_parcel.d.ts"
+  ],
+  "module": "yew_parcel.js",
+  "types": "yew_parcel.d.ts",
+  "sideEffects": false
+}
