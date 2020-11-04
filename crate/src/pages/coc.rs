@@ -27,7 +27,7 @@ impl Component for CoC {
             <Container direction=Direction::Row wrap=Wrap::Wrap class_name="content">
                 <Item layouts=vec!(ItemLayout::ItXs(12))>
                     <h2>{"Code of Conduct"}</h2>
-                    <p>{"Be nice to other people. If someone is not nice to you, remind them to be nice. If all fails, report them to us immediately. 
+                    <p>{"Be nice to other people. If someone is not nice to you, do the following: ask them if this is a joke or not. If it is not a joke or you just find the joke inappropriate, remind them to be nice. If all fails, report them to us immediately. 
                         If you don’t know what being nice is, read along (courtesy of 0xcon.co.za):"}</p>
                 <Item layouts=vec!(ItemLayout::ItXs(12))>
                     <p>{"When you come to the conference, we ask that you:"}

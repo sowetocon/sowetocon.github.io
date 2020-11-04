@@ -33,7 +33,7 @@ impl Component for Home {
                                         alt="Soweto Conference" />
 
                 //<img src="./sowetocon_poster.png"/> 
-                    <h2>{"Education is the most powerful weapon which you can use to change the world. Mandela"}</h2>
+                    <p><b>{"Education is the most powerful weapon which you can use to change the world. -Mandela."}</b></p>
                 </Item>
             </Container>
         }

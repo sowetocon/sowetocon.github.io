@@ -38,6 +38,14 @@ impl Component for Topics {
                     </p>
                 </Item>
                 <Item layouts=vec!(ItemLayout::ItXs(12))>
+                    <p>{"Blockchain:"}
+                    <ul><li>{"Cryptocurrencies (Bitcoin / Monero / Ether etc)"}</li>
+                    <li>{"Smart Contracts"}</li>
+                    <li>{"Ethereum"}</li>
+                    <li>{"And other decentralized technologies like DeFi"}</li></ul>
+                    </p>
+                </Item>
+                <Item layouts=vec!(ItemLayout::ItXs(12))>
                     <p>{"Cloud Computing / DevOps / DevSecOps:"}
                     <ul><li>{"AWS / Google Cloud / Microsoft Azure"}</li>
                     <li>{"Docker"}</li>
