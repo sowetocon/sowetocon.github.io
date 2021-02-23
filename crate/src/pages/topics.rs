@@ -26,7 +26,8 @@ impl Component for Topics {
         html! {
             <Container direction=Direction::Row wrap=Wrap::Wrap class_name="content">
                 <Item layouts=vec!(ItemLayout::ItXs(12))>
-                    <h2>{"The following are some of the topics that we would like to cover:"}</h2>
+                    <h2>{"Topics"}</h2>
+                    <h3>{"The following are some of the topics that we would like to cover:"}</h3>
                 </Item>
                 <Item layouts=vec!(ItemLayout::ItXs(12))>
                     <p>{"Artificial Intelligence:"}
@@ -69,6 +70,7 @@ impl Component for Topics {
                     <p>{"Offensive security:"}
                     <ul><li>{"ICS/IoT hacking"}</li>
                     <li>{"Mobile phone hacking"}</li>
+                    <li>{"Blockchain & Cryptocurrency hacking"}</li>
                     <li>{"Fuzzing"}</li>
                     <li>{"Red teaming techniques"}</li>
                     <li>{"Penetration testing"}</li>
@@ -90,6 +92,7 @@ impl Component for Topics {
                     <p>{"Defensive Security:"}
                     <ul><li>{"Detection and response"}</li>
                     <li>{"Threat intelligence"}</li>
+                    <li>{"Theat Modelling"}</li>
                     <li>{"Malware Analysis"}</li>
                     <li>{"Blue teaming techniques"}</li>
                     <li>{"Vulnerability disclosure handling"}</li></ul>

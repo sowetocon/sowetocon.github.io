@@ -29,7 +29,7 @@ impl Component for Training {
                     <h2>{"Training"}</h2>
                 </Item>
                 <Item layouts=vec!(ItemLayout::ItXs(12))>
-                <p>{"There will be free training the entire week before the conference. Let us know if you want to give training on anything related to the conference topics. This will be free, so be prepared to spend a day teaching."}</p>
+                <p>{"There will be free training the entire week before the conference. Let us know if you want to give training on anything related to the conference topics. This will be free, so be prepared to spend a day teaching. Well, it is not really free, you are going to exchange your time and skill for that awesome feeling you get when you realize you just changed someone's life through education."}</p>
                   
                 </Item>
             </Container>
