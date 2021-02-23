@@ -1,1 +1,1 @@
-Soweto Conference - 2021
+Soweto Conference
