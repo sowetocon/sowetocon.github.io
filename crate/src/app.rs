@@ -1,4 +1,4 @@
-use crate::pages::{About, Home, Contacts, CoC, CfP, Training, Venue, Topics};
+use crate::pages::{About, Home, Contacts, CoC, CfP, Training, Venue, Topics, Schedule};
 use yew::prelude::*;
 use yew_router::{prelude::*, route::Route, switch::Permissive, Switch};
 use yew_styles::{
@@ -25,6 +25,8 @@ pub enum AppRouter {
     CfPPath,
     #[to = "/topics!"]
     TopicsPath,
+    #[to = "/schedule!"]
+    SchedulePath,
     #[to = "/training!"]
     TrainingPath,
     #[to = "/contacts!"]
@@ -121,6 +123,14 @@ impl Component for App {
                             active = self.navbar_items[1]
                             onclick_signal = self.link.callback(|_| Msg::ChangeNavbarItem(1))
                             >
+
+                            <RouterAnchor<AppRouter>route=AppRouter::SchedulePath>{"Schedule"}</RouterAnchor<AppRouter>></NavbarItem>
+                        <NavbarItem
+                            class_name="navbar-route"
+                            active = self.navbar_items[1]
+                            onclick_signal = self.link.callback(|_| Msg::ChangeNavbarItem(1))
+                            >
+
                             <RouterAnchor<AppRouter>route=AppRouter::TrainingPath>{"Training"}</RouterAnchor<AppRouter>></NavbarItem>
                         <NavbarItem
                             class_name="navbar-route"
@@ -147,6 +157,9 @@ impl Component for App {
                             },
                             AppRouter::TopicsPath => html!{
                                 <Topics/>
+                            },
+                            AppRouter::SchedulePath => html!{
+                                <Schedule/>
                             },
                             AppRouter::TrainingPath => html!{
                                 <Training/>

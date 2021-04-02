@@ -6,5 +6,6 @@ pub mod training;
 pub mod contacts;
 pub mod venue;
 pub mod topics;
+pub mod schedule;
 
-pub use self::{about::About, home::Home, coc::CoC, cfp::CfP, training::Training, contacts::Contacts, venue::Venue, topics::Topics};
+pub use self::{about::About, home::Home, coc::CoC, cfp::CfP, training::Training, contacts::Contacts, venue::Venue, topics::Topics, schedule::Schedule};
